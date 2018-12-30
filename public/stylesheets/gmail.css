@@ -83,7 +83,8 @@ html, body{
     border-radius: 4px;
     max-width: 720px;
     position: relative;
-    transition: background 100ms ease-in,width 100ms ease-out;
+    transition: background 100ms ease-in,
+    width 100ms ease-out;
 }
 
 .sbinput{
@@ -388,7 +389,7 @@ html, body{
 }
 
 .composebut::before{
-    background-image: url('https://www.gstatic.com/images/icons/material/colored_icons/1x/create_32dp.png');
+    background-image: url('/img/googleplus.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: 32px;
@@ -405,7 +406,6 @@ html, body{
 .rsbb{
     height: 230px;
     overflow-y: scroll;
-    /*will-change: transform;*/
     overflow-x: hidden;
     margin-left: 0 !important;
 }
@@ -434,12 +434,10 @@ html, body{
     width: 100%;
     padding-left: 0;
     margin-left: 0;
-    /*background: rgba(0,0,0,0.059);*/
     padding-right: 0;
 }
 
 .inbox2{
-    /*background-color: #fce8e6;*/
     box-shadow: inset 0 0 0 1px transparent;
     border-radius: 0 16px 16px 0;
     box-sizing: border-box;
@@ -447,7 +445,6 @@ html, body{
     padding-left: 0;
     margin-left: 0;
     transition: .15s cubic-bezier(0.4,0.0,0.2,1);
-    /*background: rgba(0,0,0,0.059);*/
     padding-right: 0;
 }
 
@@ -462,7 +459,7 @@ html, body{
 
 .inboxlogo{
     opacity: 1;
-    background-image: url('https://www.gstatic.com/images/icons/material/system/1x/inbox_gm_googlered600_20dp.png');
+    background-image: url('/img/inboxred.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: 20px;
@@ -491,33 +488,33 @@ html, body{
 }
 
 #inlogo1{
-    background-image: url('https://www.gstatic.com/images/icons/material/system/1x/grade_black_20dp.png');
+    background-image: url('/img/blackstar.png');
 }
 
 #inlogo2{
-    background-image: url('https://www.gstatic.com/images/icons/material/system/1x/watch_later_black_20dp.png');
+    background-image: url('/img/clock.png');
 }
 
 #inlogo3{
-    background-image: url('https://www.gstatic.com/images/icons/material/system/1x/label_important_black_20dp.png');
+    background-image: url('/img/flat.png');
 }
 #inlogo4{
-    background-image: url('https://www.gstatic.com/images/icons/material/system/1x/hangout_black_20dp.png');
+    background-image: url('/img/hangoutmini.png');
 }
 #inlogo5{
-    background-image: url('https://www.gstatic.com/images/icons/material/system/1x/send_black_20dp.png');
+    background-image: url('/img/sendblack.png');
 }
 #inlogo6{
-    background-image: url('https://www.gstatic.com/images/icons/material/system/1x/insert_drive_file_black_20dp.png');
+    background-image: url('/img/drivefile.png');
 }
 #inlogo7{
-    background-image: url('https://www.gstatic.com/images/icons/material/system/1x/mail_black_20dp.png');
+    background-image: url('/img/mailblack.png');
 }
 #inlogo8{
-    background-image: url('https://www.gstatic.com/images/icons/material/system/1x/report_black_20dp.png');
+    background-image: url('/img/spam.png');
 }
 #inlogo9{
-    background-image: url('https://www.gstatic.com/images/icons/material/system/1x/delete_black_20dp.png');
+    background-image: url('/img/deletebin.png');
 }
 
 
@@ -525,8 +522,7 @@ html, body{
     font-weight: bold;
     text-overflow: ellipsis;
     white-space: nowrap;
-    color:#d93025;;
-    /*display: inline-blomargin-right: auto;*/
+    color:#d93025;
     cursor: pointer;
     align-items: center;
     vertical-align: middle;
@@ -536,8 +532,6 @@ html, body{
 .inboxtext1{
     text-overflow: ellipsis;
     white-space: nowrap;
-    /**/
-    /*display: inline-blomargin-right: auto;*/
     cursor: pointer;
     align-items: center;
     vertical-align: middle;
@@ -651,7 +645,6 @@ html, body{
     width: 100%;
     background-color: transparent;
     position: relative;
-    /*bottom: -33px;*/
     left: 0;
     margin-left: 0;
     padding: 0;
@@ -734,7 +727,6 @@ html, body{
     line-height:20px;
     box-sizing:border-box;
     display:flex;
-    /*width:400px;*/
     opacity:.54;
     white-space: nowrap;
 }
@@ -761,14 +753,14 @@ html, body{
 /*=====================*/
 /*    Inbox Tab*/
 /*=====================*/
-/* Style the tab */
+/* Tab Style */
 .tab {
   overflow: hidden;
   border-bottom: 1px solid #e0e0e0;
   height:56px;
 }
 
-/* Style the buttons inside the tab */
+/* Button */
 .tab button {
   background-color: inherit;
   float: left;
@@ -801,16 +793,15 @@ html, body{
   background-color: rgba(0,0,0,0.04);
 }
 
-/* Create an active/current tablink class */
+/* Active button style */
 .tab button.active {
-  /*background-color: #ccc;*/
   filter: none;
   -webkit-filter: grayscale(0%);
   opacity:1;
   border-bottom: 5px solid;
 }
 
-/* Style the tab content */
+/* Tab content style */
 .tabcontent {
   display: none;
   padding:0;
@@ -834,7 +825,7 @@ html, body{
     background-repeat: no-repeat;
     text-align:center;
     background-position:center;
-    background-image:url("https://www.gstatic.com/images/icons/material/system/1x/inbox_gm_googlered600_20dp.png");
+    background-image:url("/img/inboxred.png");
     vertical-align: middle;
 }
 
@@ -847,7 +838,7 @@ html, body{
     background-repeat: no-repeat;
     text-align:center;
     background-position:center;
-    background-image:url("https://www.gstatic.com/images/icons/material/system/1x/local_offer_gm_green600_20dp.png");
+    background-image:url("/img/greentag.png");
     vertical-align: middle;
 }
 
@@ -866,7 +857,7 @@ html, body{
 .grayscale{
     height:56px;
    -webkit-filter: grayscale(1);
-  filter: grayscale(1);
+    filter: grayscale(1);
 }
 
 .emailblk{
@@ -903,7 +894,7 @@ html, body{
 }
 
 .star{
-    background-image: url('https://www.gstatic.com/images/icons/material/system/1x/star_border_black_20dp.png');
+    background-image: url('/img/blackstar1.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: 20px;
@@ -915,12 +906,12 @@ html, body{
 }
 
 .yellowstar{
-    background-image: url('https://www.gstatic.com/images/icons/material/system/1x/star_googyellow500_20dp.png');
+    background-image: url('/img/yellowstar.png');
     opacity:1;
 }
 
 .importantemail{
-    background-image: url('https://www.gstatic.com/images/icons/material/system/1x/label_important_outline_black_20dp.png');
+    background-image: url('/img/impblack.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: 20px;
@@ -932,7 +923,7 @@ html, body{
 }
 
 .yellowimportantemail{
-    background-image: url('https://www.gstatic.com/images/icons/material/system/1x/label_important_googyellow500_20dp.png');
+    background-image: url('/img/impyellow.png');
     opacity:1;
 }
 
@@ -962,8 +953,6 @@ html, body{
     display:flex;
     font-size: .75rem;
     float:right;
-    /*margin-right:6px;*/
-    /*display:flex;*/
     width: 100px;
     padding: 3px 16px 3px 160px;
 }
@@ -989,20 +978,6 @@ html, body{
     vertical-align: middle;
 }
 
-/* Fade in tabs */
-@-webkit-keyframes fadeEffect {
-  from {opacity: 0;}
-  to {opacity: 1;}
-}
-
-@keyframes fadeEffect {
-  from {opacity: 0;}
-  to {opacity: 1;}
-}
-
-
-
-
 
 .leftsb{
     width: 56px;
@@ -1010,7 +985,6 @@ html, body{
     min-height: 1px;
     float: left;
     position:relative;
-    /*z-index:2;*/
 }
 
 .leftsb1{
@@ -1067,6 +1041,19 @@ html, body{
     opacity:.54;
     font-size:0.835rem;
 }
+
+
+/* Fade in effect for tabs */
+@-webkit-keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
 
 /*font-family: 'Roboto', sans-serif;*/
 
