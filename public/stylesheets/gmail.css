@@ -109,6 +109,8 @@ html, body{
     box-sizing: border-box;
 }
 
+
+
 .downa{
     background: none;
     border: none;
@@ -140,6 +142,11 @@ html, body{
     line-height: 0;
     position: absolute;
     top: 0;
+    opacity:0;
+}
+
+.sb2:hover .downb{
+    opacity:1;
 }
 
 #darr1{
